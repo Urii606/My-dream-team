@@ -1,25 +1,31 @@
 import React from "react";
 
 const Body = () => {
-    return (
-        <main style={styles.body}>
-            <div style={styles.card}>
-                <img src={"/avatar-default.png"} alt="John Doe" style={styles.photo} />
-                <div style={styles.textContainer}>
-                    <h2 style={styles.name}>John Doe</h2>
-                    <p style={styles.position}>Software engineer</p>
-                </div>
-            </div>
-            <div style={styles.card}>
-                <img src={"/solomiia.jpg"} alt="Solomiia Nohal" style={styles.photo} />
-                <div style={styles.textContainer}>
-                    <h2 style={styles.name}>Solomiia Nohal</h2>
-                    <p style={styles.position}>Software engineer</p>
-                </div>
-            </div>
-
-        </main>
-    );
+  return (
+    <main style={styles.body}>
+      <div style={styles.card}>
+        <img src={"/foto.jpg"} alt="Sofiia Saraka" style={styles.photo} />
+        <div style={styles.textContainer}>
+          <h2 style={styles.name}>Sofiia Saraka</h2>
+          <p style={styles.position}>Software engineer</p>
+        </div>
+      </div>
+      <div style={styles.card}>
+        <img src={"/viktor.png"} alt="Viktor Kuzo" style={styles.photo} />
+        <div style={styles.textContainer}>
+          <h2 style={styles.name}>Viktor Kuzo</h2>
+          <p style={styles.position}>Software engineer</p>
+        </div>
+      </div>
+       <div style={styles.card}>
+         <img src={"/solomiia.jpg"} alt="Solomiia Nohal" style={styles.photo} />
+         <div style={styles.textContainer}>
+           <h2 style={styles.name}>Solomiia Nohal</h2>
+           <p style={styles.position}>Software engineer</p>
+         </div>
+       </div>
+    </main>
+  );
 };
 
 const styles = {
